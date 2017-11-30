@@ -98,3 +98,33 @@ while (i < 10) {
 for (var a = 10; a > 0; a -= 1) {
   console.log(a);
 }
+
+// Duplicate ARRAY
+let array1 = [1,2,3];
+let array2 = [2,30,1];
+
+function mergeArray(array1, array2) {
+  var newArray = array1.concat(array2);
+  var unique = newArray.filter(function(element,index,self) {
+    return index === self.indexOf(element);
+  })
+  return unique;
+}
+
+mergeArray(array1, array2);
+
+// Pre-fill
+let array  = []; // Create empty array
+
+function fillArray (amt, value) { // create function that takes two values
+  for (let i = amt; i > 0; i--) { // set counter to amount, and add decrement
+    array.push(value); // add amount of values to empty array
+  }
+};
+
+fillArray(9, 5);
+
+console.log(array);
+
+
+// Clean function
