@@ -1,0 +1,26 @@
+body {
+    background-color: #6f4e37;
+    text-color: #000;
+}
+#about p {
+    text-indent: 25px;
+}
+
+#about p::first-letter{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+#contactInfo {
+    float: right;
+}
+
+footer{
+    align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Shrikhand', cursive;
+
+
+}
