@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "learn",
+    "password": "postgres",
+    "database": "contact_list",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "learn",
+    "password": "postgres",
+    "database": "contact_list",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+
+}
